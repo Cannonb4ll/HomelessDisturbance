@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Threading.Tasks;
-using CalloutAPI;
 using CitizenFX.Core;
+using FivePD.API;
 using static CitizenFX.Core.BaseScript;
 using static CitizenFX.Core.Debug;
 using static CitizenFX.Core.UI.Screen;
 using static CitizenFX.Core.Native.API;
 using static CitizenFX.Core.World;
-using HomelessDisturbance.Utils;
+using Utilities = HomelessDisturbance.Utils.Utilities;
 
 namespace HomelessDisturbance
 {
-    [CalloutProperties("Homeless Disturbance", "Dennis Smink", "1.0.0", Probability.Low)]
+    [CalloutProperties("Homeless Disturbance", "Dennis Smink", "1.0.0")]
     
-    public class HomelessDisturbance : CalloutAPI.Callout
+    public class HomelessDisturbance : Callout
     {
         // The array for the homeless people
         Ped[] homelessPeople;
@@ -47,7 +47,7 @@ namespace HomelessDisturbance
             float offsetX = random.Next(100, 200);
             float offsetY = random.Next(100, 200);
             
-            InitBase(World.GetNextPositionOnStreet(
+            InitInfo(World.GetNextPositionOnStreet(
                 Game.PlayerPed.GetOffsetPosition(new Vector3(offsetX, offsetY, 0))
             ));
 
@@ -57,9 +57,9 @@ namespace HomelessDisturbance
             StartDistance = 120f;
         }
 
-        public async override Task Init()
+        public override async Task OnAccept()
         {
-            OnAccept();
+            InitBlip();
 
             // Create a random number of homeless people
             numberOfHomelessPeople = random.Next(3, 6);
