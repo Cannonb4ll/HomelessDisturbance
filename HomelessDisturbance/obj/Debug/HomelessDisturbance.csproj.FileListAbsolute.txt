@@ -1,0 +1,9 @@
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\obj\Debug\HomelessDisturbance.csprojAssemblyReference.cache
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\obj\Debug\HomelessDisturbance.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\bin\Debug\CalloutAPI.net.dll
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\bin\Debug\CitizenFX.Core.dll
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\obj\Debug\HomelessDisturbance.csproj.CopyComplete
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\bin\Debug\HomelessDisturbance.net.dll
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\bin\Debug\HomelessDisturbance.net.pdb
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\obj\Debug\HomelessDisturbance.net.dll
+C:\Users\Dennis\RiderProjects\HomelessDisturbance\HomelessDisturbance\obj\Debug\HomelessDisturbance.net.pdb
